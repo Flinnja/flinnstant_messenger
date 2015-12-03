@@ -14,9 +14,9 @@ app.get('/', function(req, res){
 
 io.on('connection', function(socket){
   console.log('a user connected')
-  socket.on('chat message', function(msg){
-    console.log('message: '+msg)
-    io.emit('syno message', msg)
+  socket.on('chat message', function(usr,msg){
+    console.log(usr+': '+msg)
+    io.emit('syno message', usr, msg)
   });
 });
 
