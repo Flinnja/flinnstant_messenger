@@ -1,0 +1,34 @@
+{
+  "name": "flinnstant_messenger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "devstart": "nodemon app.js",
+    "start": "node app.js",
+    "test": "mocha --compilers js:babel-core/register --recursive",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flinnja/flinnstant_messenger.git"
+  },
+  "author": "Flinn Gendall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flinnja/flinnstant_messenger/issues"
+  },
+  "homepage": "https://github.com/Flinnja/flinnstant_messenger#readme",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "socket.io": "^1.3.7"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  }
+}

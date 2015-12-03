@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <link rel='stylesheet' href='/../styles/main.css' />
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Poiret+One' rel='stylesheet' type='text/css'>
+  <script src='/socket.io/socket.io.js'></script>
+  <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+  <script src='/../scripts/sockets.js'></script>
+</head>
+<body>
+  <script>
+    $(function(){
+      setupSocket()
+    })
+  </script>
+
+  <ul id="messages"></ul>
+  <form action="">
+    <input id="user" placeholder="Name">
+    <input id="message" autocomplete="off" />
+    <button>Send</button>
+  </form>
+</body>
+</html>

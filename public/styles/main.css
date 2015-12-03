@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus{
+  outline-color: #CC143F;
+}
+
+body{
+  background-color: #00FFB7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+form{
+  background-color: #FF4F40;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form input{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: .5%;
+}
+
+#message{
+  width: 80%;
+}
+
+#user{
+  width: 10%;
+}
+
+form button{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  width: 8%;
+  background-color: #CC143F;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#messages{
+  list-style-type: none;
+}
+
+#messages li{
+  font-size: 1.5em;
+  background-color: #149CCC;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#messages li:nth-child(odd){
+  background-color: #3D8199;
+}
