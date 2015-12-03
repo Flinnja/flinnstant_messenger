@@ -53,6 +53,7 @@ form button{
 }
 
 #messages li{
+  font-size: 1.5em;
   background-color: #149CCC;
   padding: 5px 10px;
   margin: 5px;
