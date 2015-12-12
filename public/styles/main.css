@@ -51,7 +51,7 @@ form input{
   float: right;
 }
 
-.html5colorpick{
+.html5colourpick{
   width: 30px;
   height: 19px;
   padding: 0;
@@ -82,12 +82,7 @@ form button{
 
 #messages li{
   font-size: 1.2em;
-  background-color: #149CCC;
   padding: 5px 10px;
   margin: 5px;
   border-radius: 5px;
-}
-
-#messages li:nth-child(odd){
-  background-color: #3D8199;
 }
