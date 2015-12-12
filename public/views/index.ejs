@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='stylesheet' href='/../styles/main.css' />
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Poiret+One' rel='stylesheet' type='text/css'>
   <script src='/socket.io/socket.io.js'></script>
@@ -16,9 +17,13 @@
 
   <ul id="messages"></ul>
   <form action="">
-    <input id="user" placeholder="Name">
-    <input id="message" autocomplete="off" />
-    <button>Send</button>
+    <span class="input_line">
+      <input id="user" placeholder="Name">
+    </span>
+    <span class="input_line">
+      <input id="message" autocomplete="off" placeholder="Type your message"/>
+      <button>Send</button>
+    </span>
   </form>
 </body>
 </html>
