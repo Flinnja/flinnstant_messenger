@@ -18,7 +18,15 @@
   <ul id="messages"></ul>
   <form action="">
     <span class="input_line">
-      <input id="user" placeholder="Name">
+      <input id="user" placeholder="Name" />
+      <div class="colourpicker">
+        Text:
+        <input class="html5colorpick" type="color" value="#000000" onchange="clickColor(0,-1,-1,5)" content="Text Colour"/>
+      </div>
+      <div class="colourpicker">
+        BG:
+        <input class="html5colorpick" type="color" value="#3D8199" onchange="clickColor(0,-1,-1,5)">
+      </div>
     </span>
     <span class="input_line">
       <input id="message" autocomplete="off" placeholder="Type your message"/>

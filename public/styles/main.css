@@ -34,13 +34,35 @@ form input{
   display: block;
 }
 
-#message{
-  width: 67%;
+#user{
+  width: 37%;
+  margin-bottom: 10px;
 }
 
-#user{
-  width: 40%;
-  margin-bottom: 10px;
+.colourpicker{
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 3%;
+  background-color: #fff;
+  float: right;
+}
+
+.html5colorpick{
+  width: 30px;
+  height: 19px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  vertical-align: text-top;
+  background-color: #fff;
+}
+
+#message{
+  width: 67%;
 }
 
 form button{
