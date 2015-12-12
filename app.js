@@ -13,9 +13,10 @@ app.get('/', function(req, res){
 })
 
 io.on('connection', function(socket){
-  socket.on('chat message', function(usr,msg){
+  socket.on('chat message', function(usr,txt,bg,msg){
     console.log(usr+': '+msg)
-    io.emit('syno message', usr, msg)
+    console.log(txt,bg)
+    io.emit('syno message', usr, txt, bg, msg)
   });
 });
 

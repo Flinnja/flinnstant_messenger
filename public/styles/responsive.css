@@ -1,0 +1,90 @@
+@media only screen and (min-width: 768px){
+	*{
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+	}
+
+	*:focus{
+	  outline-color: #CC143F;
+	}
+
+	body{
+	  background-color: #00FFB7;
+	  font-family: 'Montserrat', sans-serif;
+	}
+
+	form{
+	  background-color: #FF4F40;
+	  padding: 10px;
+	  position: fixed;
+	  bottom: 0;
+	  width: 100%;
+	}
+
+	form input{
+	  font-family: 'Montserrat', sans-serif;
+	  font-size: 1em;
+	  border: 0;
+	  border-radius: 5px;
+	  padding: 10px;
+	  margin-right: .5%;
+	}
+
+	.input_line{
+		display: inline;
+	}
+
+	#user{
+	  width: 10%;  
+	  margin-bottom: 0;
+	}
+
+	.colourpicker{
+	  display: inline;
+	  font-family: 'Montserrat', sans-serif;
+	  font-size: 1em;
+	  border: 0;
+	  border-radius: 5px;
+	  padding: 10px;
+	  margin-right: .5%;
+	  margin-left: 0;
+	  background-color: #fff;
+	  float: none;
+	}
+
+	.html5colourpick{
+	  width: 30px;
+	  height: 19px;
+	  padding: 0;
+	  border: 0;
+	  margin: 0;
+	  vertical-align: text-top;
+	  background-color: #fff;
+	}
+
+	#message{
+	  width: 53%;
+	}
+
+	form button{
+	  font-family: 'Montserrat', sans-serif;
+	  font-size: 1em;
+	  width: 9%;
+	  background-color: #CC143F;
+	  border: 0;
+	  border-radius: 5px;
+	  padding: 10px;
+	}
+
+	#messages{
+	  list-style-type: none;
+	}
+
+	#messages li{
+	  font-size: 1.5em;
+	  padding: 5px 10px;
+	  margin: 5px;
+	  border-radius: 5px;
+	}
+}

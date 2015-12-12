@@ -1,7 +1,7 @@
 {
   "name": "flinnstant_messenger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Flinn's inspired version of an instant messsenging app",
   "main": "app.js",
   "scripts": {
     "devstart": "nodemon app.js",

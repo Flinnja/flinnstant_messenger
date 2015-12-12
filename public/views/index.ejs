@@ -1,7 +1,9 @@
 <!doctype html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='stylesheet' href='/../styles/main.css' />
+  <link rel='stylesheet' href='/../styles/responsive.css' />
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Poiret+One' rel='stylesheet' type='text/css'>
   <script src='/socket.io/socket.io.js'></script>
   <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
@@ -16,9 +18,21 @@
 
   <ul id="messages"></ul>
   <form action="">
-    <input id="user" placeholder="Name">
-    <input id="message" autocomplete="off" />
-    <button>Send</button>
+    <span class="input_line">
+      <input id="user" placeholder="Name" />
+      <div class="colourpicker">
+        Text:
+        <input class="html5colourpick" id="text_colour" type="color" value="#000000" />
+      </div>
+      <div class="colourpicker">
+        BG:
+        <input class="html5colourpick" id="bg_colour" type="color" value="#3D8199" />
+      </div>
+    </span>
+    <span class="input_line">
+      <input id="message" autocomplete="off" placeholder="Type your message"/>
+      <button>Send</button>
+    </span>
   </form>
 </body>
 </html>

@@ -30,22 +30,50 @@ form input{
   margin-right: .5%;
 }
 
-#message{
-  width: 80%;
+.input_line{
+  display: block;
 }
 
 #user{
-  width: 10%;
+  width: 37%;
+  margin-bottom: 10px;
+}
+
+.colourpicker{
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 3%;
+  background-color: #fff;
+  float: right;
+}
+
+.html5colourpick{
+  width: 30px;
+  height: 19px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  vertical-align: text-top;
+  background-color: #fff;
+}
+
+#message{
+  width: 67%;
 }
 
 form button{
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
-  width: 8%;
+  width: 30%;
   background-color: #CC143F;
   border: 0;
   border-radius: 5px;
   padding: 10px;
+  float: right;
 }
 
 #messages{
@@ -53,13 +81,8 @@ form button{
 }
 
 #messages li{
-  font-size: 1.5em;
-  background-color: #149CCC;
+  font-size: 1.2em;
   padding: 5px 10px;
   margin: 5px;
   border-radius: 5px;
-}
-
-#messages li:nth-child(odd){
-  background-color: #3D8199;
 }
